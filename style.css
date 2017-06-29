@@ -28,7 +28,7 @@ h1 {
 }
 /*font awesome styling*/
 .fa-linkedin-square, .fa-instagram, .fa-lastfm-square, .fa-file-word-o,
-.fa-envelope-o, .fa-file-pdf-o {
+.fa-envelope-o, .fa-file-pdf-o, .fa-github-square {
   color: #fff;
   margin: 20px;
   padding: 10px;
@@ -52,4 +52,8 @@ h1 {
 
 .fa-file-pdf-o {
   background-color: #8899aa;
+}
+
+.fa-github-square {
+  background-color: #24292e;
 }
