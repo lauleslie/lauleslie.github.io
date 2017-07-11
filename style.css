@@ -16,16 +16,21 @@ a:hover {
   text-decoration: underline;
 }
 
-/*h1 font styling*/
-h1 {
+/*media styling*/
+.media-heading {
   font-weight: 200;
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
 
-.col img {
-  width: 80%;
+.media {
+  margin: 10px;
 }
+
+.media img {
+  margin-right: 10px;
+}
+
 /*font awesome styling*/
 .fa-linkedin-square, .fa-instagram, .fa-lastfm-square, .fa-file-word-o,
 .fa-envelope-o, .fa-file-pdf-o, .fa-github-square {
