@@ -1,19 +1,19 @@
 body {
-  font-family: 12px 'Open Sans', sans-serif;
+  font-family: 12px 'Raleway', sans-serif;
   color: #333;
-  font-weight: 200;
   position: relative;
-  text-transform: lowercase;
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 i {
   color: #666c8f;
 }
 
-h1 {
-  font-weight: 200;
-}
-
+/* navbar styling */
 .navbar {
   background-color: #fff;
   background:rgba(0, 0, 0, 0.1);
@@ -28,47 +28,101 @@ h1 {
 }
 
 p {
-  font-size: 24px;
+  font-size: 18px;
 }
 
+ul {
+  padding-left: 30px;
+}
+
+/* section styling */
 #s1, #s2 {
-  padding-top:50px;
+  padding-top: 50px;
   height:100vh;
-  color: #fff;
 }
 
 #s1 {
-  background-color: #8ca9d8;
-  background:url('images/leslie.png')
+  background: url('images/me.png')
   no-repeat center;
   background-size: cover;
+  background-color: #fff;
   color: #333;
 }
 
+/* about me accent styling */
+.linlink, .linlink:hover {
+  background-color: #cce9ea;
+  padding: 2px;
+}
+
+.catan, .catan:hover {
+  color: #ffdd00 !important;
+  background-color: #b03526;
+  padding: 2px;
+}
+
+.ig, .ig:hover {
+  color: #fff !important;
+  background-color: #004879;
+  padding: 2px;;
+}
+
+.linlink:hover, .catan:hover, .ig:hover {
+  color: inherit;
+}
+
+.os {
+  font-family: 'Open Sans';
+}
+
+/* section 2 / project styling */
 #s2{
-  background-color: #666c8f;
-  background: url('images/sf.jpg')
+  background: url('https://static.pexels.com/photos/403571/pexels-photo-403571.jpeg')
   no-repeat center;
   background-size: cover;
 }
 
+.thumbnail {
+  background-color:rgba(255,255,255,.6);
+}
+
+.thumbnail img {
+  border: none;
+}
+
+/* add a border */
+.accent {
+  height: 1px;
+  width: 100%;
+  background-color: #ddd;
+  margin-bottom: 5px;
+}
+
+/* contact info styling */
 #s3 {
-  height: 15vh;
+  height: 100vh;
   background-color: #eee;
   color: #333;
 }
 
-/*link section and transitions*/
-a {
+#s3 a {
   color: #808080;
   transition: all 0.5s ease;
 }
 
-a:hover {
+#s3 a:hover {
   color: #333;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
+.btn-primary {
+  background-color: #89a088;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #a2b7a1;
+}
 /*media styling*/
 .media-heading {
   font-weight: 200;
@@ -84,6 +138,10 @@ a:hover {
   margin-right: 10px;
 }
 
+.rightcreds {
+  float: right;
+}
+
 /*font awesome styling*/
 .fa-linkedin-square, .fa-instagram, .fa-lastfm-square, .fa-file-word-o,
 .fa-envelope-o, .fa-file-pdf-o, .fa-github-square {
@@ -91,7 +149,7 @@ a:hover {
   transition: background-color 0.75s ease;
   text-align: center;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 30px;
   margin-right: 10px;
 }
 
