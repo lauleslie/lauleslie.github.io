@@ -1,8 +1,61 @@
 body {
   font-family: 12px 'Open Sans', sans-serif;
   color: #333;
-  padding-top: 70px;
   font-weight: 200;
+  position: relative;
+  text-transform: lowercase;
+}
+
+i {
+  color: #666c8f;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+.navbar {
+  background-color: #fff;
+  background:rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: #333;
+}
+
+.navbar-brand{
+  margin-top: -13px;
+}
+
+p {
+  font-size: 24px;
+}
+
+#s1, #s2 {
+  padding-top:50px;
+  height:100vh;
+  color: #fff;
+}
+
+#s1 {
+  background-color: #8ca9d8;
+  background:url('images/leslie.png')
+  no-repeat center;
+  background-size: cover;
+  color: #333;
+}
+
+#s2{
+  background-color: #666c8f;
+  background: url('images/sf.jpg')
+  no-repeat center;
+  background-size: cover;
+}
+
+#s3 {
+  height: 20vh;
+  background-color: #eee;
+  color: #333;
 }
 
 /*link section and transitions*/
@@ -34,31 +87,30 @@ a:hover {
 /*font awesome styling*/
 .fa-linkedin-square, .fa-instagram, .fa-lastfm-square, .fa-file-word-o,
 .fa-envelope-o, .fa-file-pdf-o, .fa-github-square {
-  color: #fff;
-  margin: 20px;
   padding: 10px;
   transition: background-color 0.75s ease;
   text-align: center;
   border-radius: 50%;
   font-size: 20px;
+  margin-right: 10px;
 }
 
 .fa-linkedin-square{
-  background-color: #0f7db8;
+  color: #0f7db8;
 }
 
 .fa-instagram {
-  background-color: #004879;
+  color: #004879;
 }
 
 .fa-lastfm-square {
-  background-color: #b90000;
+  color: #b90000;
 }
 
 .fa-file-pdf-o {
-  background-color: #8899aa;
+  color: #8899aa;
 }
 
 .fa-github-square {
-  background-color: #24292e;
+  color: #24292e;
 }
