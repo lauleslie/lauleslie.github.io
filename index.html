@@ -1,51 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- add icon to tab -->
   <link rel="shortcut icon" href="images/leslieicon.png" type="images/leslieicon.png">
   <title>Leslie Lau</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
+<<<<<<< HEAD
 <body>
-<!--
-* scrollspy example courtesy of:
-* https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp
-*
--->
-<nav class="navbar navbar-light navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">
-        <img src="images/leslieicon.svg" height="45px"/>
-      </a>
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#s1">Hello</a></li>
-          <li><a href="#s2">Projects</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>
-
-<div id="s1" class="container-fluid">
-  <p>
-    <h1>Hi, I'm Leslie Lau. <small>lauleslielau [at] gmail.com</small> </h1>
-  </p>
-
+  <div class="container">
+    <!-- page header with info -->
+      <div class="page-header">
+        <img src="images/leslieicon.svg" class="pull-left" height="50px"/>
+        <h1> Leslie Lau
+           <small>// <i class="fa fa-graduation-cap"></i> computer science senior at uc santa cruz</small>
+        </h1>
+=======
   <p>
     I am a rising fourth year computer science undergraduate at UC Santa Cruz.
   </p>
@@ -114,64 +90,85 @@
               <span class="badge badge-pill badge-default">Sketch</span>
           </div>
         </div>
+>>>>>>> f37aff24242501d87238daef9dc12b00a07abda2
       </div>
+      <!-- end page header -->
 
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img src="images/webpage/meta.png" alt="...">
-          <div class="caption">
-            <h2>Personal Website</h2>
-            <p> This will always be a work in progress, as I will keep
-              updating this website as I learn more about web development!
-            </p>
-            <p>
-              <a href="https://github.com/lauleslie/lauleslie.github.io">View GitHub Repo</a>
-            </p>
+      <!-- begin projects -->
+        <p>
+          <h2>PROJECTS</h2>
+          <div class="row">
+            <div class="col-sm-6 col-md-6">
+              <div class="thumbnail">
+                <img src="images/homeme/splash.png" alt="...">
+                <div class="caption">
+                  <h2>HomeMe</h2>
+                  <p>
+                    HomeMe is an application powered by <a href="http://www.web2py.com">Web2py</a>.
+                    You are able to posts your needs in a forum-like area.
+                  </p>
+                  <p>
+                    If you make a landlord post, you can upload a picture of your property and list details.
+                    If you make a tenant post, you can let others know about yourself, your budget, and the number of people you have.
+                  </p>
+                  <p>
+                    I worked as the product owner and lead front-end developer in a team of 5 people.
+                  <p>
+                    <a href="https://github.com/lauleslie/homeme">View GitHub Repo</a> //
+                    <a href="https://lauleslie.github.io/images/homeme/homeme.pdf">System Screenshots</a>
+                  </p>
+                  <!-- technology used -->
+                  <div class="accent"></div>
+                    <span class="badge badge-pill badge-default">Web2py</span>
+                    <span class="badge badge-pill badge-default">HTML/CSS</span>
+                    <span class="badge badge-pill badge-primary">Python</span>
+                    <span class="badge badge-pill badge-default">SQLite</span>
+                    <span class="badge badge-pill badge-default">Bootstrap</span>
+                    <span class="badge badge-pill badge-default">Sketch</span>
+                </div>
+              </div>
+            </div>
 
-            <div class="accent"></div>
-              <span class="badge badge-pill badge-default">HTML/CSS</span>
-              <span class="badge badge-pill badge-default">Bootstrap</span>
+            <div class="col-sm-6 col-md-6">
+              <div class="thumbnail">
+                <img src="images/webpage/meta.png" alt="...">
+                <div class="caption">
+                  <h2>Personal Website</h2>
+                  <p> This will always be a work in progress, as I will keep
+                    updating this website as I learn more about web development!
+                  </p>
+                  <p>
+                    <a href="https://github.com/lauleslie/lauleslie.github.io">View GitHub Repo</a>
+                  </p>
+                  <!-- technology used -->
+                  <div class="accent"></div>
+                    <span class="badge badge-pill badge-default">HTML/CSS</span>
+                    <span class="badge badge-pill badge-default">Bootstrap</span>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </p>
+        <!-- end projects section -->
     </div>
-  </p>
-  <div class="rightcreds">
-    <small>
-      <a href="https://www.pexels.com/photo/bloom-book-botanical-cactus-403571/">
-      image source </a>
-    </small>
-  </div>
-</div>
+    <!-- close container -->
 
-<script>
-$(document).ready(function(){
-  // Add scrollspy to <body>
-  $('body').scrollspy({target: ".navbar", offset: 50});
-
-  // Add smooth scrolling on all links inside the navbar
-  $("#myNavbar a").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  // End if
-  });
-});
-</script>
-
-</body>
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">
+          <center>
+          <a href="https://www.linkedin.com/in/lsslie" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+          <a href="https://github.com/lauleslie"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/lsslie/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.last.fm/user/resrie"><i class="fa fa-lastfm-square" aria-hidden="true"></i></a>
+          <br>
+          <a href="http://lauleslie.github.io/lauleslieResume.pdf" class="resume">resumé</a> //
+          lauleslielau [at] gmail.com
+          </center>
+        </p>
+      </div>
+    </footer>
+    <!-- end footer -->
+  </body>
 </html>
