@@ -1,3 +1,4 @@
+/* body styling */
 body {
   font-family: 12px 'Raleway', sans-serif;
   color: #404040;
@@ -9,6 +10,7 @@ body {
   background-attachment: fixed;
 }
 
+/* link styling */
 a {
   color: #bebebe;
   text-decoration: none;
@@ -20,6 +22,7 @@ a:hover {
   text-decoration: none;
 }
 
+/* page header customizations */
 .page-header img {
   margin-right: 10px;
 }
@@ -28,10 +31,13 @@ a:hover {
   font-size: 12px;
 }
 
+/* p customization */
 p {
   font-size: 14px;
 }
 
+/* thumbnail customization */
+/* make bg transparent */
 .thumbnail {
   background-color:rgba(255,255,255,.6);
 }
@@ -48,6 +54,7 @@ p {
   margin-bottom: 5px;
 }
 
+/* footer styling */
 footer {
   background-color: #eee;
   padding: 10px;
@@ -58,6 +65,7 @@ footer .fa {
   padding: 10px;
 }
 
+/* add color to fa icons */
 .fa-instagram {
   color: #262626;
 }
@@ -74,7 +82,8 @@ footer .fa {
   color: #0077b5;
 }
 
+/* make resume link stand out more */
 .resume {
-  color: #333;
+  color: #eba001;
   font-weight: 400;
 }
