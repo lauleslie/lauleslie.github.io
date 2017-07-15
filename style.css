@@ -58,6 +58,8 @@ p {
 footer {
   background-color: #eee;
   padding: 10px;
+  bottom: 0px;
+  position: relative;
 }
 
 footer .fa {
