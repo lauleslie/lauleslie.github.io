@@ -4,7 +4,7 @@ body {
   color: #404040;
   position: relative;
   font-weight: 300;
-  background: url('https://static.pexels.com/photos/494700/pexels-photo-494700.jpeg')
+  background: url('images/webpage/background.jpeg')
   no-repeat center;
   background-size: cover;
   background-attachment: fixed;
@@ -44,6 +44,11 @@ p {
 
 .thumbnail img {
   border: none;
+}
+
+.thumbnail a {
+  color: #333;
+  border-bottom: 1px dotted #333;
 }
 
 /* add a border */
