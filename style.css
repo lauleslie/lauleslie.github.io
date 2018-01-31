@@ -4,10 +4,6 @@ body {
   color: #404040;
   position: relative;
   font-weight: 300;
-  background: url('images/webpage/background.jpeg')
-  no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 /* link styling */
@@ -18,7 +14,6 @@ a {
 }
 
 a:hover {
-  color: #235a4c;
   text-decoration: none;
 }
 
@@ -40,6 +35,7 @@ p {
 /* make bg transparent */
 .thumbnail {
   background-color:rgba(255,255,255,.6);
+  border-color: #f2f2f2;
 }
 
 .thumbnail img {
@@ -91,6 +87,6 @@ footer .fa {
 
 /* make resume link stand out more */
 .resume {
-  color: #eba001;
+  color: #971a42;
   font-weight: 400;
 }
