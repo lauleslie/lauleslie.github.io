@@ -1,6 +1,6 @@
 /* body styling */
 body {
-  font-family: 12px 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #404040;
   position: relative;
   font-weight: 300;
@@ -17,76 +17,25 @@ a:hover {
   text-decoration: none;
 }
 
-/* page header customizations */
-.page-header img {
-  margin-right: 10px;
-}
-
-.page-header small {
-  font-size: 12px;
-}
-
-/* p customization */
-p {
-  font-size: 14px;
-}
-
-/* thumbnail customization */
-/* make bg transparent */
-.thumbnail {
-  background-color:rgba(255,255,255,.6);
-  border-color: #f2f2f2;
-}
-
-.thumbnail img {
-  border: none;
-}
-
-.thumbnail a {
-  color: #333;
-  border-bottom: 1px dotted #333;
-}
-
-/* add a border */
-.accent {
-  height: 1px;
-  width: 100%;
-  background-color: #ddd;
-  margin-bottom: 5px;
-}
-
-/* footer styling */
-footer {
-  background-color: #eee;
-  padding: 10px;
-  bottom: 0px;
-  position: relative;
-}
-
-footer .fa {
-  font-size: 30px;
-  padding: 10px;
+.jumbotron {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 10%;
 }
 
 /* add color to fa icons */
-.fa-instagram {
+.fa-instagram:hover {
   color: #262626;
 }
 
-.fa-lastfm-square {
+.fa-lastfm:hover {
   color: #b80610;
 }
 
-.fa-github-square {
+.fa-github:hover {
   color: #24292e;
 }
 
-.fa-linkedin-square {
+.fa-linkedin:hover {
   color: #0077b5;
-}
-
-/* make resume link stand out more */
-.resume {
-  color: #971a42;
-  font-weight: 400;
 }
